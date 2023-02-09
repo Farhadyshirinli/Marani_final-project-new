@@ -1,0 +1,70 @@
+﻿@model IEnumerable<BlogPost>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Product Page Section Beign -->
+<section class="product-page">
+    <div class="container">
+        <div class="product-control">
+            <a href="#">Previous</a>
+            <a href="#">Next</a>
+        </div>
+      @foreach (var item in Model)
+        {
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="~/uploads/images/@item.ImagePath" alt="">
+                                <div class="p-status">new</div>
+                            </figure>
+                        </div>
+                   
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-content">
+                        <h2>@item.Title</h2>
+                        <div class="pc-meta">
+                            <span>@item.PublishedDate?.ToString("dd MMM,yyyy")</span>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <p>
+                            @item.Body.ToPlainText()
+                        </p>
+                        <ul class="tags">
+                            <li><span>Category :</span> Men’s Wear</li>
+                            <li><span>Tags :</span> man, shirt, dotted, elegant, cool</li>
+                        </ul>
+                       @* <div class="product-quantity">
+                            <div class="pro-qty">
+                                <input type="text" value="1">
+                            </div>
+                        </div>
+                      <a href="#" class="primary-btn pc-btn">Add to cart</a>
+                        <ul class="p-info">
+                            <li>Product Information</li>
+                            <li>Reviews</li>
+                            <li>Product Care</li>
+                        </ul>*@
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+<!-- Product Page Section End -->
+
+

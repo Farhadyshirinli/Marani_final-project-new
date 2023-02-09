@@ -1,0 +1,107 @@
+﻿@model List<Faq>
+@{
+
+    ViewData["Title"] = "Faq";
+}
+
+<!-- Header Section Begin -->
+<header class="header-section">
+    <div class="container-fluid">
+        <div class="inner-header">
+            <div class="logo">
+                <a href="./index.html"><img src="~/assets/img/logo.png" alt=""></a>
+            </div>
+            <div class="header-right">
+                <img src="~/assets/img/icons/search.png" alt="" class="search-trigger">
+                <img src="~/assets/img/icons/man.png" alt="">
+                <a href="#">
+                    <img src="~/assets/img/icons/bag.png" alt="">
+                    <span>2</span>
+                </a>
+            </div>
+            <div class="user-access">
+                <a href="#">Register</a>
+                <a href="#" class="in">Sign in</a>
+            </div>
+
+            <partial name="_MainMenu" />
+
+        </div>
+    </div>
+</header>
+
+
+<div style="margin: 20px; padding:50px;" class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="accordion" id="accordionExample">
+                @foreach (var item in Model)
+                {
+
+
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" 
+                                data-toggle="collapse" 
+                                data-target="#collapseThree-@item.Id" 
+                                aria-expanded="false" 
+                                aria-controls="collapseThree">
+                                    @item.Question
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree-@item.Id" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                @item.Answer
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer Section Begin -->
+<footer class="footer-section spad">
+    <div class="container">
+        <div class="newslatter-form">
+            <div class="row">
+                <div class="col-lg-12">
+                    <form action="#">
+                        <input type="text" placeholder="Your email address">
+                        <button type="submit">Subscribe to our newsletter</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <partial name="_FooterWidget" />
+
+    </div>
+    <div class="social-links-warp">
+        <div class="container">
+            <div class="social-links">
+                <a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
+                <a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+                <a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+                <a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
+                <a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
+                <a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
+            </div>
+        </div>
+
+        <div class="container text-center pt-5">
+            <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+
+
+    </div>
+</footer>
+<!-- Footer Section End -->

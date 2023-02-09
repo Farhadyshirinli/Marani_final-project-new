@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\bin\Debug\net5.0\Marani.Domain.deps.json
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\bin\Debug\net5.0\Marani.Domain.runtimeconfig.json
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\bin\Debug\net5.0\Marani.Domain.runtimeconfig.dev.json
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\bin\Debug\net5.0\Marani.Domain.dll
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\bin\Debug\net5.0\Marani.Domain.pdb
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\Marani.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\Marani.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\Marani.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\Marani.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\Marani.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\Marani.Domain.dll
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\refint\Marani.Domain.dll
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\Marani.Domain.pdb
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\Marani.Domain.genruntimeconfig.cache
+C:\Users\User\Desktop\Marani-ecommerce-solution-final-main\Marani Solution\Marani.Domain\obj\Debug\net5.0\ref\Marani.Domain.dll
